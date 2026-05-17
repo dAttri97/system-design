@@ -1,0 +1,39 @@
+rules:
+  - name: write_posts
+    key: user_id
+    match:
+      method: POST
+      path: /api/posts
+    limit: 2
+    window: 1s
+    algorithm: token_bucket
+    bucketSize: 2
+    refillRate: 2
+
+  - name: create_account_by_ip
+    key: ip
+    match:
+      method: POST
+      path: /api/accounts
+    limit: 10
+    window: 1d
+    algorithm: fixed_window
+
+  - name: login_attempts
+    key: ip
+    match:
+      method: POST
+      path: /api/auth/login
+    limit: 5
+    window: 1m
+    algorithm: fixed_window
+
+  - name: global_api
+    key: global
+    match:
+      path: /api/**
+    limit: 100
+    window: 1m
+    algorithm: token_bucket
+    bucketSize: 100
+    refillRate: 100
