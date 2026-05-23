@@ -5,7 +5,7 @@
 | **Product** | Server-side distributed rate limiter |
 | **Version** | 0.1 (draft) |
 | **Status** | Proposed |
-| **Source** | [chapter05-rate_limiter/README.md](./README.md) |
+| **Source** | [chapter05-rate_limiter/README.md](README.md) |
 | **Last updated** | 2026-05-17 |
 
 ---
@@ -354,7 +354,7 @@ Allowed requests MAY include `X-Ratelimit-Limit` and `X-Ratelimit-Remaining` for
 
 ## 15. References
 
-- Internal design notes: [README.md](./README.md)
+- Internal design notes: [README.md](README.md)
 - HTTP 429: [RFC 6585](https://datatracker.ietf.org/doc/html/rfc6585)
 - Industry patterns: token bucket (Stripe, Amazon), leaking bucket (Shopify)
 

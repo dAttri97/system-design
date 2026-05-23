@@ -1,0 +1,4 @@
+nodes:
+  - id: cache-01
+  - id: cache-02
+  - id: cache-03
