@@ -1,4 +1,4 @@
-package com.attri.systemdesign.consistentHash.config;
+package com.attri.systemdesign.consistenthash.config;
 
 import java.io.IOException;
 import java.util.List;
