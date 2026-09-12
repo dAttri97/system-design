@@ -1,7 +1,7 @@
-package com.attri.systemdesign.loggingframework;
+package com.attri.systemdesign.lld.loggingframework;
 
 
-import com.attri.systemdesign.loggingframework.strategies.appender.LogAppender;
+import com.attri.systemdesign.lld.loggingframework.strategies.appender.LogAppender;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

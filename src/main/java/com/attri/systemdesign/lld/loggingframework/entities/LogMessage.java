@@ -1,6 +1,6 @@
-package com.attri.systemdesign.loggingframework.entities;
+package com.attri.systemdesign.lld.loggingframework.entities;
 
-import com.attri.systemdesign.loggingframework.enums.LogLevel;
+import com.attri.systemdesign.lld.loggingframework.enums.LogLevel;
 
 import java.time.LocalDateTime;
 

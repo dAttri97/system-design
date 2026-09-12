@@ -1,8 +1,8 @@
-package com.attri.systemdesign.loggingframework;
+package com.attri.systemdesign.lld.loggingframework;
 
 
-import com.attri.systemdesign.loggingframework.enums.LogLevel;
-import com.attri.systemdesign.loggingframework.strategies.appender.ConsoleAppender;
+import com.attri.systemdesign.lld.loggingframework.enums.LogLevel;
+import com.attri.systemdesign.lld.loggingframework.strategies.appender.ConsoleAppender;
 
 public class LoggingFrameworkDemo {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package com.attri.systemdesign.loggingframework.strategies.formatter;
+package com.attri.systemdesign.lld.loggingframework.strategies.formatter;
 
 
-import com.attri.systemdesign.loggingframework.entities.LogMessage;
+import com.attri.systemdesign.lld.loggingframework.entities.LogMessage;
 
 import java.time.format.DateTimeFormatter;
 

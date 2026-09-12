@@ -1,8 +1,8 @@
-package com.attri.systemdesign.loggingframework;
+package com.attri.systemdesign.lld.loggingframework;
 
-import com.attri.systemdesign.loggingframework.entities.LogMessage;
-import com.attri.systemdesign.loggingframework.enums.LogLevel;
-import com.attri.systemdesign.loggingframework.strategies.appender.LogAppender;
+import com.attri.systemdesign.lld.loggingframework.entities.LogMessage;
+import com.attri.systemdesign.lld.loggingframework.enums.LogLevel;
+import com.attri.systemdesign.lld.loggingframework.strategies.appender.LogAppender;
 
 import java.util.List;
 import java.util.concurrent.CopyOnWriteArrayList;

@@ -1,8 +1,8 @@
-package com.attri.systemdesign.loggingframework.strategies.appender;
+package com.attri.systemdesign.lld.loggingframework.strategies.appender;
 
-import com.attri.systemdesign.loggingframework.entities.LogMessage;
-import com.attri.systemdesign.loggingframework.strategies.formatter.LogFormatter;
-import com.attri.systemdesign.loggingframework.strategies.formatter.SimpleTextFormatter;
+import com.attri.systemdesign.lld.loggingframework.entities.LogMessage;
+import com.attri.systemdesign.lld.loggingframework.strategies.formatter.LogFormatter;
+import com.attri.systemdesign.lld.loggingframework.strategies.formatter.SimpleTextFormatter;
 
 import java.io.FileWriter;
 import java.io.IOException;
