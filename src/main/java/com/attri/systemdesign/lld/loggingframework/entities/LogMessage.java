@@ -1,10 +1,13 @@
 package com.attri.systemdesign.lld.loggingframework.entities;
 
 import com.attri.systemdesign.lld.loggingframework.enums.LogLevel;
+import lombok.Getter;
 
 import java.time.LocalDateTime;
 
+@Getter
 public final class LogMessage {
+    // Getters for all fields
     private final LocalDateTime timestamp;
     private final LogLevel level;
     private final String loggerName;
@@ -19,10 +22,4 @@ public final class LogMessage {
         this.threadName = Thread.currentThread().getName();
     }
 
-    // Getters for all fields
-    public LocalDateTime getTimestamp() { return timestamp; }
-    public LogLevel getLevel() { return level; }
-    public String getLoggerName() { return loggerName; }
-    public String getThreadName() { return threadName; }
-    public String getMessage() { return message; }
 }
