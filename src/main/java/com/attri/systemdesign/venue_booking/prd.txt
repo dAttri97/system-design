@@ -1,0 +1,83 @@
+Problem Statement
+    Design and implement an in-memory backend for a sports venue booking platform similar to Playo.
+    A venue can host multiple courts for different sports. Users should be able to discover available courts based on location,
+    sport, and preferred time, reserve a slot, and cancel an existing booking.
+    The system must ensure that the same slot cannot be booked by more than one user at any point in time.
+
+Functional Requirements
+1. Venue Management
+    The system should allow a venue owner to register and maintain the venue.
+
+2. Court Management
+    A venue can contain multiple courts.
+    Each court belongs to exactly one venue and supports a single sport.
+
+3. Search
+    Users should be able to search for available slots.
+    The search should support filtering by:
+        City
+        Sport
+        Preferred Time
+
+4. Booking
+    Users should be able to reserve an available slot.
+    Once booked, the slot should no longer be available for booking.
+
+5. Booking Cancellation
+    Users should be able to cancel an active booking.
+    Once cancelled, the slot should become available for booking again.
+
+Non-Functional Requirements
+    Store all data in memory.
+    Follow object-oriented design principles.
+    Keep the design modular and extensible.
+    Ensure a slot cannot be double booked.
+    Handle invalid requests gracefully.
+    Code should be easy to read, test, and extend.
+    Optimize for readability and maintainability over premature optimization.
+
+Assumptions
+    Authentication and authorization are out of scope.
+    A user can have multiple bookings.
+    Time zones can be ignored.
+    Payment is out of scope.
+    Notifications are out of scope.
+    Data persistence is not required.
+
+Evaluation Criteria
+The solution will be evaluated based on:
+Domain modeling
+Object-oriented design
+Separation of concerns
+Data structure selection
+Handling of edge cases
+Extensibility for future requirements
+Code quality and readability
+
+
+Bonus (Try if you are done with above requirements).
+
+- Concurrent Booking
+  -Two users try to book the same court at exactly the same time. What happens and how do you prevent this?
+
+- Cancellation Policy
+ - Different venues have different cancellation rules.
+    Example
+        Venue A
+            Free cancellation
+            until 2 hours before.
+
+        Venue B
+            No cancellation
+            within 12 hours.
+
+
+
+
+
+
+
+
+
+
+
